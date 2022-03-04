@@ -6,7 +6,7 @@ import Success from './Success';
 function App() {
   return (
     <div className="App">
-      <Header title="NANAMI SHOP" />
+      <div>NANAMI SHOP</div>
       <Switch>
         <Route path='/' exact>
           <Pay />
