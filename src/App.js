@@ -6,11 +6,12 @@ import Success from './Success';
 function App() {
   return (
     <div className="App">
+      <Header title="NANAMI SHOP" />
       <Switch>
-        <Route path='/pay'>
+        <Route path='/' exact>
           <Pay />
         </Route>
-        <Route path='/success'>
+        <Route path='/success' exact>
           <Success />
         </Route>
       </Switch>
