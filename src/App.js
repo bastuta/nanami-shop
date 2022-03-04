@@ -5,7 +5,7 @@ import Success from './Success';
 
 function App() {
   return (
-    <Router>
+    <div className="App">
       <Switch>
         <Route path='/pay'>
           <Pay />
@@ -14,7 +14,7 @@ function App() {
           <Success />
         </Route>
       </Switch>
-    </Router>
+    </div>
   );
 }
 
